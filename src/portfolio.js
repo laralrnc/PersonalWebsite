@@ -1,79 +1,92 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+
+  homepage: 'https://personal-website-laralrnc.vercel.app/',
+  title: 'Lara Lourenço',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+ 
+  name: 'Lara Lourenço',
+  role: 'Desenvolvedora Full Stack Jr',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Tenho 21 anos e sou estudante de Ciências Sociais e tecnóloga em informática. Após 3 anos focada totalmente nas ciências humanas decidi retomar meus estudos na tecnologia, a principío para compartilhar os trabalhos que desenvolvia na faculdade, mas com o bootcamp da Generation me encontrei na carreira de desenvolvedora. Estou em constante aprendizado e neste site compartilho meus projetos!',
+  resume: 'https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:387df55d-8b34-4266-881f-854e3a6300fb',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/lourencolara/',
+    github: 'https://github.com/laralrnc',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+
   {
-    name: 'Project 1',
+    name: 'Sala de vídeo',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Conheça meu projeto "Sala de vídeo", um blog para publicação de dicas de filmes que podem ajudar estudantes a fixar o conteúdo.',
+    stack: ['Spring', 'Java', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com/laralrnc/BlogPessoal_REACT',
+    livePreview: 'https://effervescent-pie-f3ca60.netlify.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Schoolboard',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Com base na ODS 4. Educação de qualidade, decididos desenvolver uma rede social que une professores e alunos dispostos a aprender e compartilhar conhecimento.',
+    stack: ['Spring', 'Java', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com/Grupo3333',
+    livePreview: 'https://schoolboard.netlify.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Buscador de CEP',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Projeto utilizando JavaScript e React para acessar a API externa da ViaCep e verificar CEPs e endereços',
+    stack: ['JavaScript', 'HTML', 'CSS', 'React'],
+    sourceCode: 'https://github.com/laralrnc/BuscadorCEP',
+    livePreview: 'https://buscador-i8awxvz4w-laralrnc.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Farmácia',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Projeto utilizando o framework Spring que simula a manipulação do banco de dados de uma farmácia.',
+    stack: ['Spring', 'MySQL', 'Java'],
+    sourceCode: 'https://github.com/laralrnc/Farmacia',
+    livePreview: 'https://github.com/laralrnc/Farmacia',
+  },
+  {
+    name: 'Minha loja de games',
+    description:
+      'Projeto utilizando o framework Spring que simula a manipulação do banco de dados de um e-commerce de games.',
+    stack: ['Spring', 'MySQL', 'Java'],
+    sourceCode: 'https://github.com/laralrnc/Minha_Loja_Games',
+    livePreview: 'https://github.com/laralrnc/Minha_Loja_Games',
+  },
+  {
+    name: 'Agência de turismo',
+    description:
+      'Projeto utilizando a linguagem java para fixação dos conceitos de programação orientada a objetos que simula uma agência de viagens, sugerindo uma roteiro a partir das respostas do usuário',
+    stack: ['Java' , 'Eclipse'],
+    sourceCode: 'https://github.com/laralrnc/Projeto-JAVA-Agencia-de-turismo',
+    livePreview: 'https://github.com/laralrnc/Projeto-JAVA-Agencia-de-turismo',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
+
+  'Java',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'HTML',
+  'JavaScript',
+  'CSS',
+  'MySql',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Spring Framework',
+  'SCRUM',
+  'React',
+  'Spring Boot'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+
+  email:   'laralourenco5966@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
